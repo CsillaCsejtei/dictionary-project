@@ -6,8 +6,20 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">Welcome to my App</header>
-        <main><Dictionary/></main>
-        <footer className="App-footer"><small>Coded by Csilla Csejtei</small></footer>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="App-footer">
+          <small>
+            This project was coded by Csilla Csejtei and is open-sourced on {" "}
+            <a
+              href="https://github.com/CsillaCsejtei/dictionary-project"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Github
+            </a>
+          </small>
+        </footer>
       </div>
     </div>
   );
